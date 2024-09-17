@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cormorant, serif;
+}
+
+h1 {
+  display: inline;
+  font-weight: 300;
+  margin-right: 32px;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+.navbar {
+  margin: 32px;
+}
+
+.links a.active {
+  border-bottom: 1px solid black;
+}
+
+.gallery {
+  margin: 16px;
+}
+.card {
+  width: 49.75%;
+  display: inline-block;
+  padding: 16px;
+}
+
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.card img:hover {
+  opacity: 0.7;
+}
+.card h2 {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.about {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 100px 200px;
+}
+.about > p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about h3 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 25px 0;
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.contact {
+  margin-top: 50px;
+}
+.contact p {
+  font-size: 20px;
+}
